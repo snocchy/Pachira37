@@ -37,20 +37,20 @@
 		8D897B79153309AB004BED3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8D897B7B153309AB004BED3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8D897B7D153309AB004BED3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8D897B81153309AB004BED3C /* Pachira37-Info.plist */ = {isa = PBXFileReference; path = "Pachira37-Info.plist"; sourceTree = "<group>"; };
+		8D897B81153309AB004BED3C /* Pachira37-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pachira37-Info.plist"; sourceTree = "<group>"; };
 		8D897B83153309AB004BED3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D897B85153309AB004BED3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8D897B87153309AB004BED3C /* Pachira37-Prefix.pch */ = {isa = PBXFileReference; path = "Pachira37-Prefix.pch"; sourceTree = "<group>"; };
-		8D897B88153309AB004BED3C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D897B87153309AB004BED3C /* Pachira37-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pachira37-Prefix.pch"; sourceTree = "<group>"; };
+		8D897B88153309AB004BED3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D897B89153309AB004BED3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8D897B8C153309AB004BED3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		8D897B8E153309AB004BED3C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		8D897B8E153309AB004BED3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8D897B8F153309AB004BED3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8D897B96153309AB004BED3C /* Pachira37Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pachira37Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D897B97153309AB004BED3C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8D897B9F153309AB004BED3C /* Pachira37Tests-Info.plist */ = {isa = PBXFileReference; path = "Pachira37Tests-Info.plist"; sourceTree = "<group>"; };
+		8D897B9F153309AB004BED3C /* Pachira37Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pachira37Tests-Info.plist"; sourceTree = "<group>"; };
 		8D897BA1153309AB004BED3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8D897BA3153309AB004BED3C /* Pachira37Tests.h */ = {isa = PBXFileReference; path = Pachira37Tests.h; sourceTree = "<group>"; };
+		8D897BA3153309AB004BED3C /* Pachira37Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pachira37Tests.h; sourceTree = "<group>"; };
 		8D897BA4153309AB004BED3C /* Pachira37Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pachira37Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
