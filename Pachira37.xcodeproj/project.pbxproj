@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D897B7A153309AB004BED3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B79153309AB004BED3C /* UIKit.framework */; };
+		8D897B7C153309AB004BED3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B7B153309AB004BED3C /* Foundation.framework */; };
+		8D897B7E153309AB004BED3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B7D153309AB004BED3C /* CoreGraphics.framework */; };
+		8D897B84153309AB004BED3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D897B82153309AB004BED3C /* InfoPlist.strings */; };
+		8D897B86153309AB004BED3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897B85153309AB004BED3C /* main.m */; };
+		8D897B8A153309AB004BED3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897B89153309AB004BED3C /* AppDelegate.m */; };
+		8D897B8D153309AB004BED3C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D897B8B153309AB004BED3C /* MainStoryboard.storyboard */; };
+		8D897B90153309AB004BED3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897B8F153309AB004BED3C /* ViewController.m */; };
+		8D897B98153309AB004BED3C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B97153309AB004BED3C /* SenTestingKit.framework */; };
+		8D897B99153309AB004BED3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B79153309AB004BED3C /* UIKit.framework */; };
+		8D897B9A153309AB004BED3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B7B153309AB004BED3C /* Foundation.framework */; };
+		8D897BA2153309AB004BED3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D897BA0153309AB004BED3C /* InfoPlist.strings */; };
+		8D897BA5153309AB004BED3C /* Pachira37Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897BA4153309AB004BED3C /* Pachira37Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D897B9B153309AB004BED3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D897B6C153309AB004BED3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D897B74153309AB004BED3C;
+			remoteInfo = Pachira37;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D897B75153309AB004BED3C /* Pachira37.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pachira37.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D897B79153309AB004BED3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D897B7B153309AB004BED3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D897B7D153309AB004BED3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D897B81153309AB004BED3C /* Pachira37-Info.plist */ = {isa = PBXFileReference; path = "Pachira37-Info.plist"; sourceTree = "<group>"; };
+		8D897B83153309AB004BED3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D897B85153309AB004BED3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D897B87153309AB004BED3C /* Pachira37-Prefix.pch */ = {isa = PBXFileReference; path = "Pachira37-Prefix.pch"; sourceTree = "<group>"; };
+		8D897B88153309AB004BED3C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D897B89153309AB004BED3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D897B8C153309AB004BED3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8D897B8E153309AB004BED3C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		8D897B8F153309AB004BED3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D897B96153309AB004BED3C /* Pachira37Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pachira37Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D897B97153309AB004BED3C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D897B9F153309AB004BED3C /* Pachira37Tests-Info.plist */ = {isa = PBXFileReference; path = "Pachira37Tests-Info.plist"; sourceTree = "<group>"; };
+		8D897BA1153309AB004BED3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D897BA3153309AB004BED3C /* Pachira37Tests.h */ = {isa = PBXFileReference; path = Pachira37Tests.h; sourceTree = "<group>"; };
+		8D897BA4153309AB004BED3C /* Pachira37Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pachira37Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D897B72153309AB004BED3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D897B7A153309AB004BED3C /* UIKit.framework in Frameworks */,
+				8D897B7C153309AB004BED3C /* Foundation.framework in Frameworks */,
+				8D897B7E153309AB004BED3C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D897B92153309AB004BED3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D897B98153309AB004BED3C /* SenTestingKit.framework in Frameworks */,
+				8D897B99153309AB004BED3C /* UIKit.framework in Frameworks */,
+				8D897B9A153309AB004BED3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D897B6A153309AB004BED3C = {
+			isa = PBXGroup;
+			children = (
+				8D897B7F153309AB004BED3C /* Pachira37 */,
+				8D897B9D153309AB004BED3C /* Pachira37Tests */,
+				8D897B78153309AB004BED3C /* Frameworks */,
+				8D897B76153309AB004BED3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D897B76153309AB004BED3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D897B75153309AB004BED3C /* Pachira37.app */,
+				8D897B96153309AB004BED3C /* Pachira37Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D897B78153309AB004BED3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D897B79153309AB004BED3C /* UIKit.framework */,
+				8D897B7B153309AB004BED3C /* Foundation.framework */,
+				8D897B7D153309AB004BED3C /* CoreGraphics.framework */,
+				8D897B97153309AB004BED3C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D897B7F153309AB004BED3C /* Pachira37 */ = {
+			isa = PBXGroup;
+			children = (
+				8D897B88153309AB004BED3C /* AppDelegate.h */,
+				8D897B89153309AB004BED3C /* AppDelegate.m */,
+				8D897B8B153309AB004BED3C /* MainStoryboard.storyboard */,
+				8D897B8E153309AB004BED3C /* ViewController.h */,
+				8D897B8F153309AB004BED3C /* ViewController.m */,
+				8D897B80153309AB004BED3C /* Supporting Files */,
+			);
+			path = Pachira37;
+			sourceTree = "<group>";
+		};
+		8D897B80153309AB004BED3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D897B81153309AB004BED3C /* Pachira37-Info.plist */,
+				8D897B82153309AB004BED3C /* InfoPlist.strings */,
+				8D897B85153309AB004BED3C /* main.m */,
+				8D897B87153309AB004BED3C /* Pachira37-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D897B9D153309AB004BED3C /* Pachira37Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8D897BA3153309AB004BED3C /* Pachira37Tests.h */,
+				8D897BA4153309AB004BED3C /* Pachira37Tests.m */,
+				8D897B9E153309AB004BED3C /* Supporting Files */,
+			);
+			path = Pachira37Tests;
+			sourceTree = "<group>";
+		};
+		8D897B9E153309AB004BED3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D897B9F153309AB004BED3C /* Pachira37Tests-Info.plist */,
+				8D897BA0153309AB004BED3C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D897B74153309AB004BED3C /* Pachira37 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D897BA8153309AB004BED3C /* Build configuration list for PBXNativeTarget "Pachira37" */;
+			buildPhases = (
+				8D897B71153309AB004BED3C /* Sources */,
+				8D897B72153309AB004BED3C /* Frameworks */,
+				8D897B73153309AB004BED3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pachira37;
+			productName = Pachira37;
+			productReference = 8D897B75153309AB004BED3C /* Pachira37.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D897B95153309AB004BED3C /* Pachira37Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D897BAB153309AB004BED3C /* Build configuration list for PBXNativeTarget "Pachira37Tests" */;
+			buildPhases = (
+				8D897B91153309AB004BED3C /* Sources */,
+				8D897B92153309AB004BED3C /* Frameworks */,
+				8D897B93153309AB004BED3C /* Resources */,
+				8D897B94153309AB004BED3C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D897B9C153309AB004BED3C /* PBXTargetDependency */,
+			);
+			name = Pachira37Tests;
+			productName = Pachira37Tests;
+			productReference = 8D897B96153309AB004BED3C /* Pachira37Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D897B6C153309AB004BED3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8D897B6F153309AB004BED3C /* Build configuration list for PBXProject "Pachira37" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D897B6A153309AB004BED3C;
+			productRefGroup = 8D897B76153309AB004BED3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D897B74153309AB004BED3C /* Pachira37 */,
+				8D897B95153309AB004BED3C /* Pachira37Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D897B73153309AB004BED3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D897B84153309AB004BED3C /* InfoPlist.strings in Resources */,
+				8D897B8D153309AB004BED3C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D897B93153309AB004BED3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D897BA2153309AB004BED3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D897B94153309AB004BED3C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D897B71153309AB004BED3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D897B86153309AB004BED3C /* main.m in Sources */,
+				8D897B8A153309AB004BED3C /* AppDelegate.m in Sources */,
+				8D897B90153309AB004BED3C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D897B91153309AB004BED3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D897BA5153309AB004BED3C /* Pachira37Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D897B9C153309AB004BED3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D897B74153309AB004BED3C /* Pachira37 */;
+			targetProxy = 8D897B9B153309AB004BED3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D897B82153309AB004BED3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D897B83153309AB004BED3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D897B8B153309AB004BED3C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D897B8C153309AB004BED3C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		8D897BA0153309AB004BED3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D897BA1153309AB004BED3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D897BA6153309AB004BED3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8D897BA7153309AB004BED3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D897BA9153309AB004BED3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pachira37/Pachira37-Prefix.pch";
+				INFOPLIST_FILE = "Pachira37/Pachira37-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D897BAA153309AB004BED3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pachira37/Pachira37-Prefix.pch";
+				INFOPLIST_FILE = "Pachira37/Pachira37-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8D897BAC153309AB004BED3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pachira37.app/Pachira37";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pachira37/Pachira37-Prefix.pch";
+				INFOPLIST_FILE = "Pachira37Tests/Pachira37Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8D897BAD153309AB004BED3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pachira37.app/Pachira37";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pachira37/Pachira37-Prefix.pch";
+				INFOPLIST_FILE = "Pachira37Tests/Pachira37Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D897B6F153309AB004BED3C /* Build configuration list for PBXProject "Pachira37" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D897BA6153309AB004BED3C /* Debug */,
+				8D897BA7153309AB004BED3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D897BA8153309AB004BED3C /* Build configuration list for PBXNativeTarget "Pachira37" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D897BA9153309AB004BED3C /* Debug */,
+				8D897BAA153309AB004BED3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D897BAB153309AB004BED3C /* Build configuration list for PBXNativeTarget "Pachira37Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D897BAC153309AB004BED3C /* Debug */,
+				8D897BAD153309AB004BED3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D897B6C153309AB004BED3C /* Project object */;
+}
