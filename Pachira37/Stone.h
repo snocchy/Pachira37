@@ -32,8 +32,7 @@
 //@property(nonatomic, assign) id<StoneDelegate> delegate;
 @property(nonatomic, assign) Rink* rink;
 
-@property(nonatomic) CGFloat posX;
-@property(nonatomic) CGFloat posY;
+@property(nonatomic) CGFloat posX, posY;
 
 @property(nonatomic, getter=isActive) BOOL active;
 @property(nonatomic, getter=isMoving) BOOL moving;
