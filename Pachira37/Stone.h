@@ -9,9 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "StoneDelegate.h"
 @class Rink;
+#import "Player.h"
 
 @interface Stone : NSObject
 {
+    // 所持プレイヤー
+
+    Player* _player;
+    
     //id<StoneDelegate> _delegate;
     CGFloat _posX, _posY;
     

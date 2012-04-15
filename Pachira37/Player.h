@@ -10,9 +10,15 @@
 
 @interface Player : NSObject
 {
+    // 先攻か後攻か とりあえずBOOLで
+    BOOL _isFirstMove;
+    
+    
+    // このへん仮
     int _rating;
     int _winCount;
     int _loseCount;
+    
 }
 
 @end

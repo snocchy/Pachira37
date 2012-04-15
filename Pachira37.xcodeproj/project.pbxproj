@@ -23,6 +23,7 @@
 		8D897BBC15333C3B004BED3C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897BB515333C3B004BED3C /* Player.m */; };
 		8D897BBD15333C3B004BED3C /* Rink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897BB715333C3B004BED3C /* Rink.m */; };
 		8D897BBE15333C3B004BED3C /* Stone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897BB915333C3B004BED3C /* Stone.m */; };
+		8DA8B4D2153A911300174656 /* CurlingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA8B4D1153A911300174656 /* CurlingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		8D897BB815333C3B004BED3C /* Stone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stone.h; sourceTree = "<group>"; };
 		8D897BB915333C3B004BED3C /* Stone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stone.m; sourceTree = "<group>"; };
 		8D897BBA15333C3B004BED3C /* StoneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoneDelegate.h; sourceTree = "<group>"; };
+		8DA8B4D0153A911300174656 /* CurlingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurlingGame.h; sourceTree = "<group>"; };
+		8DA8B4D1153A911300174656 /* CurlingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurlingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				8D897B89153309AB004BED3C /* AppDelegate.m */,
 				8D897B8B153309AB004BED3C /* MainStoryboard.storyboard */,
 				8D897B80153309AB004BED3C /* Supporting Files */,
+				8DA8B4D0153A911300174656 /* CurlingGame.h */,
+				8DA8B4D1153A911300174656 /* CurlingGame.m */,
 			);
 			path = Pachira37;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				8D897BBC15333C3B004BED3C /* Player.m in Sources */,
 				8D897BBD15333C3B004BED3C /* Rink.m in Sources */,
 				8D897BBE15333C3B004BED3C /* Stone.m in Sources */,
+				8DA8B4D2153A911300174656 /* CurlingGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +340,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -360,7 +366,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

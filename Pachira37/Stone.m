@@ -36,7 +36,7 @@
 @synthesize speed = _speed;
 @synthesize direction = _direction;
 
-
+// Stoneの半径(数値は適当)
 static const CGFloat RADIUS = 30;
 static const CGFloat PI = (CGFloat) M_PI;
 
