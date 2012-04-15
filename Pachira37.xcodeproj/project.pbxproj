@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D30674B153B5DBD00672C89 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D30674A153B5DBD00672C89 /* Game.m */; };
 		8D897B7A153309AB004BED3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B79153309AB004BED3C /* UIKit.framework */; };
 		8D897B7C153309AB004BED3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B7B153309AB004BED3C /* Foundation.framework */; };
 		8D897B7E153309AB004BED3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B7D153309AB004BED3C /* CoreGraphics.framework */; };
 		8D897B84153309AB004BED3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D897B82153309AB004BED3C /* InfoPlist.strings */; };
 		8D897B86153309AB004BED3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897B85153309AB004BED3C /* main.m */; };
 		8D897B8A153309AB004BED3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897B89153309AB004BED3C /* AppDelegate.m */; };
-		8D897B8D153309AB004BED3C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D897B8B153309AB004BED3C /* MainStoryboard.storyboard */; };
 		8D897B98153309AB004BED3C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B97153309AB004BED3C /* SenTestingKit.framework */; };
 		8D897B99153309AB004BED3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B79153309AB004BED3C /* UIKit.framework */; };
 		8D897B9A153309AB004BED3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D897B7B153309AB004BED3C /* Foundation.framework */; };
@@ -23,7 +23,6 @@
 		8D897BBC15333C3B004BED3C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897BB515333C3B004BED3C /* Player.m */; };
 		8D897BBD15333C3B004BED3C /* Rink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897BB715333C3B004BED3C /* Rink.m */; };
 		8D897BBE15333C3B004BED3C /* Stone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D897BB915333C3B004BED3C /* Stone.m */; };
-		8DA8B4D2153A911300174656 /* CurlingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA8B4D1153A911300174656 /* CurlingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D306749153B5DBD00672C89 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		8D30674A153B5DBD00672C89 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		8D897B75153309AB004BED3C /* Pachira37.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pachira37.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D897B79153309AB004BED3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8D897B7B153309AB004BED3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,7 +48,6 @@
 		8D897B87153309AB004BED3C /* Pachira37-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pachira37-Prefix.pch"; sourceTree = "<group>"; };
 		8D897B88153309AB004BED3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D897B89153309AB004BED3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8D897B8C153309AB004BED3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8D897B96153309AB004BED3C /* Pachira37Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pachira37Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D897B97153309AB004BED3C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8D897B9F153309AB004BED3C /* Pachira37Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pachira37Tests-Info.plist"; sourceTree = "<group>"; };
@@ -62,9 +62,6 @@
 		8D897BB715333C3B004BED3C /* Rink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Rink.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		8D897BB815333C3B004BED3C /* Stone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Stone.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		8D897BB915333C3B004BED3C /* Stone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Stone.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		8D897BBA15333C3B004BED3C /* StoneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = StoneDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		8DA8B4D0153A911300174656 /* CurlingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CurlingGame.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		8DA8B4D1153A911300174656 /* CurlingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CurlingGame.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,15 +127,13 @@
 				8D897BB515333C3B004BED3C /* Player.m */,
 				8D897BB615333C3B004BED3C /* Rink.h */,
 				8D897BB715333C3B004BED3C /* Rink.m */,
+				8D306749153B5DBD00672C89 /* Game.h */,
+				8D30674A153B5DBD00672C89 /* Game.m */,
 				8D897BB815333C3B004BED3C /* Stone.h */,
 				8D897BB915333C3B004BED3C /* Stone.m */,
-				8D897BBA15333C3B004BED3C /* StoneDelegate.h */,
 				8D897B88153309AB004BED3C /* AppDelegate.h */,
 				8D897B89153309AB004BED3C /* AppDelegate.m */,
-				8D897B8B153309AB004BED3C /* MainStoryboard.storyboard */,
 				8D897B80153309AB004BED3C /* Supporting Files */,
-				8DA8B4D0153A911300174656 /* CurlingGame.h */,
-				8DA8B4D1153A911300174656 /* CurlingGame.m */,
 			);
 			path = Pachira37;
 			sourceTree = "<group>";
@@ -244,7 +239,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D897B84153309AB004BED3C /* InfoPlist.strings in Resources */,
-				8D897B8D153309AB004BED3C /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +279,7 @@
 				8D897BBC15333C3B004BED3C /* Player.m in Sources */,
 				8D897BBD15333C3B004BED3C /* Rink.m in Sources */,
 				8D897BBE15333C3B004BED3C /* Stone.m in Sources */,
-				8DA8B4D2153A911300174656 /* CurlingGame.m in Sources */,
+				8D30674B153B5DBD00672C89 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +308,6 @@
 				8D897B83153309AB004BED3C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8D897B8B153309AB004BED3C /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D897B8C153309AB004BED3C /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		8D897BA0153309AB004BED3C /* InfoPlist.strings */ = {

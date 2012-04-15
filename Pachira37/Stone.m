@@ -38,12 +38,13 @@
 
 // Stoneの半径(数値は適当)
 static const CGFloat RADIUS = 30;
+
 static const CGFloat PI = (CGFloat) M_PI;
 
 static const CGFloat LOWEST_SPEED = 0.001;
 
 - (void)dealloc {
-    
+    [super dealloc];
 }
 
 // setter,getter
